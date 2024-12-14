@@ -1,0 +1,741 @@
+ERROR 2024-12-10 16:07:37,602 django.security.DisallowedHost Invalid HTTP_HOST header: '0.0.0.0:8002'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '0.0.0.0:8002'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+ERROR 2024-12-10 16:07:37,832 django.security.DisallowedHost Invalid HTTP_HOST header: '0.0.0.0:8002'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '0.0.0.0:8002'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+INFO 2024-12-10 16:09:38,111 django Incoming Request: {'method': 'GET', 'path': '/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T16:09:38.111454'}
+INFO 2024-12-10 16:09:40,413 django Incoming Request: {'method': 'GET', 'path': '/favicon.ico', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T16:09:40.413320'}
+INFO 2024-12-10 16:12:43,267 django Incoming Request: {'method': 'GET', 'path': '/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T16:12:43.267779'}
+INFO 2024-12-10 16:12:45,526 django Incoming Request: {'method': 'GET', 'path': '/favicon.ico', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T16:12:45.526058'}
+INFO 2024-12-10 17:39:26,518 django Incoming Request: {'method': 'GET', 'path': '/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T17:39:26.518449'}
+INFO 2024-12-10 17:39:26,624 django Response: {'status_code': 404, 'content_length': 2310}
+WARNING 2024-12-10 17:39:26,624 django.request Not Found: /
+INFO 2024-12-10 17:39:26,639 django Incoming Request: {'method': 'GET', 'path': '/favicon.ico', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T17:39:26.639903'}
+INFO 2024-12-10 17:39:26,642 django Response: {'status_code': 404, 'content_length': 2361}
+WARNING 2024-12-10 17:39:26,643 django.request Not Found: /favicon.ico
+INFO 2024-12-10 17:39:28,585 django Incoming Request: {'method': 'GET', 'path': '/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T17:39:28.585711'}
+INFO 2024-12-10 17:39:28,591 django Response: {'status_code': 404, 'content_length': 2310}
+WARNING 2024-12-10 17:39:28,592 django.request Not Found: /
+INFO 2024-12-10 17:42:12,976 django Incoming Request: {'method': 'GET', 'path': '/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T17:42:12.976592'}
+INFO 2024-12-10 17:43:37,089 django Incoming Request: {'method': 'GET', 'path': '/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T17:43:37.089791'}
+INFO 2024-12-10 17:44:23,628 django Incoming Request: {'method': 'GET', 'path': '/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T17:44:23.628352'}
+INFO 2024-12-10 17:48:54,709 django Incoming Request: {'method': 'GET', 'path': '/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T17:48:54.708971'}
+INFO 2024-12-10 17:48:54,858 django Response: {'status_code': 200, 'content_length': 28}
+INFO 2024-12-10 17:51:02,568 django Incoming Request: {'method': 'GET', 'path': '/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T17:51:02.568754'}
+INFO 2024-12-10 17:52:21,806 django Incoming Request: {'method': 'GET', 'path': '/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T17:52:21.806034'}
+INFO 2024-12-10 17:52:21,904 django Response: {'status_code': 301, 'content_length': 0}
+INFO 2024-12-10 17:52:21,907 django Incoming Request: {'method': 'GET', 'path': '/proxy/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T17:52:21.907200'}
+INFO 2024-12-10 17:52:21,913 django Response: {'status_code': 404, 'content_length': 3153}
+WARNING 2024-12-10 17:52:21,913 django.request Not Found: /proxy/
+INFO 2024-12-10 17:53:11,208 django Incoming Request: {'method': 'GET', 'path': '/proxy/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T17:53:11.208697'}
+INFO 2024-12-10 17:53:11,307 django Response: {'status_code': 404, 'content_length': 3167}
+WARNING 2024-12-10 17:53:11,307 django.request Not Found: /proxy/
+INFO 2024-12-10 17:53:13,062 django Incoming Request: {'method': 'GET', 'path': '/proxy/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T17:53:13.062077'}
+INFO 2024-12-10 17:53:13,069 django Response: {'status_code': 404, 'content_length': 3167}
+WARNING 2024-12-10 17:53:13,069 django.request Not Found: /proxy/
+INFO 2024-12-10 17:53:42,484 django Incoming Request: {'method': 'GET', 'path': '/proxy/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T17:53:42.484079'}
+INFO 2024-12-10 17:53:42,586 django Response: {'status_code': 404, 'content_length': 3167}
+WARNING 2024-12-10 17:53:42,587 django.request Not Found: /proxy/
+INFO 2024-12-10 17:53:43,529 django Incoming Request: {'method': 'GET', 'path': '/proxy/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T17:53:43.529628'}
+INFO 2024-12-10 17:53:43,537 django Response: {'status_code': 404, 'content_length': 3167}
+WARNING 2024-12-10 17:53:43,538 django.request Not Found: /proxy/
+INFO 2024-12-10 17:53:44,317 django Incoming Request: {'method': 'GET', 'path': '/proxy/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T17:53:44.317151'}
+INFO 2024-12-10 17:53:44,323 django Response: {'status_code': 404, 'content_length': 3167}
+WARNING 2024-12-10 17:53:44,324 django.request Not Found: /proxy/
+INFO 2024-12-10 17:54:12,328 django Incoming Request: {'method': 'GET', 'path': '/proxy/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T17:54:12.328461'}
+INFO 2024-12-10 17:54:12,334 django Response: {'status_code': 404, 'content_length': 3167}
+WARNING 2024-12-10 17:54:12,334 django.request Not Found: /proxy/
+INFO 2024-12-10 17:54:13,824 django Incoming Request: {'method': 'GET', 'path': '/proxy/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T17:54:13.824571'}
+INFO 2024-12-10 17:54:13,827 django Response: {'status_code': 404, 'content_length': 3167}
+WARNING 2024-12-10 17:54:13,827 django.request Not Found: /proxy/
+INFO 2024-12-10 17:54:57,882 django Incoming Request: {'method': 'GET', 'path': '/proxy/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T17:54:57.882842'}
+INFO 2024-12-10 17:54:57,990 django Response: {'status_code': 404, 'content_length': 3167}
+WARNING 2024-12-10 17:54:57,991 django.request Not Found: /proxy/
+INFO 2024-12-10 17:56:58,383 django Incoming Request: {'method': 'GET', 'path': '/proxy/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T17:56:58.383014'}
+INFO 2024-12-10 17:56:58,543 django Response: {'status_code': 404, 'content_length': 3167}
+WARNING 2024-12-10 17:56:58,543 django.request Not Found: /proxy/
+INFO 2024-12-10 17:57:46,301 django Incoming Request: {'method': 'GET', 'path': '/proxy/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T17:57:46.301368'}
+INFO 2024-12-10 17:57:46,308 django Response: {'status_code': 404, 'content_length': 3167}
+WARNING 2024-12-10 17:57:46,309 django.request Not Found: /proxy/
+INFO 2024-12-10 18:00:09,612 django Incoming Request: {'method': 'GET', 'path': '/proxy/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T18:00:09.612425'}
+INFO 2024-12-10 18:00:16,753 django Incoming Request: {'method': 'GET', 'path': '/proxy/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T18:00:16.753822'}
+INFO 2024-12-10 18:00:29,017 django Incoming Request: {'method': 'GET', 'path': '/proxy/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-10T18:00:29.017480'}
+INFO 2024-12-12 16:43:29,765 django Incoming Request: {'method': 'GET', 'path': '/proxy/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-12T16:43:29.765728'}
+INFO 2024-12-12 16:43:29,879 django Response: {'status_code': 404, 'content_length': 2344}
+WARNING 2024-12-12 16:43:29,880 django.request Not Found: /proxy/
+INFO 2024-12-12 16:43:31,761 django Incoming Request: {'method': 'GET', 'path': '/proxy/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-12T16:43:31.761161'}
+INFO 2024-12-12 16:43:31,767 django Response: {'status_code': 404, 'content_length': 2344}
+WARNING 2024-12-12 16:43:31,768 django.request Not Found: /proxy/
+INFO 2024-12-12 16:43:31,839 django Incoming Request: {'method': 'GET', 'path': '/favicon.ico', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-12T16:43:31.839585'}
+INFO 2024-12-12 16:43:31,843 django Response: {'status_code': 404, 'content_length': 2359}
+WARNING 2024-12-12 16:43:31,843 django.request Not Found: /favicon.ico
+ERROR 2024-12-12 16:52:17,415 django.security.DisallowedHost Invalid HTTP_HOST header: 'proxy_server-django_rest-1:8002'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'proxy_server-django_rest-1:8002'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2024-12-12 16:52:17,501 django.request Bad Request: /api/token/
+INFO 2024-12-12 16:55:23,347 django Incoming Request: {'method': 'POST', 'path': '/api/token/', 'ip': '172.18.0.1', 'user_agent': 'curl/7.81.0', 'timestamp': '2024-12-12T16:55:23.347651'}
+INFO 2024-12-12 16:55:23,352 django Response: {'status_code': 404, 'content_length': 3037}
+WARNING 2024-12-12 16:55:23,353 django.request Not Found: /api/token/
+ERROR 2024-12-12 17:04:38,491 django.security.DisallowedHost Invalid HTTP_HOST header: 'proxy_server-django_rest-1:8002'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'proxy_server-django_rest-1:8002'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2024-12-12 17:04:38,598 django.request Bad Request: /api/token/
+INFO 2024-12-12 17:05:22,203 django Incoming Request: {'method': 'POST', 'path': '/api/token/', 'ip': '172.18.0.1', 'user_agent': 'curl/7.81.0', 'timestamp': '2024-12-12T17:05:22.203829'}
+ERROR 2024-12-12 17:05:22,249 django.request Internal Server Error: /api/token/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: auth_user
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework_simplejwt/views.py", line 44, in post
+    serializer.is_valid(raise_exception=True)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/serializers.py", line 445, in run_validation
+    value = self.validate(value)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework_simplejwt/serializers.py", line 73, in validate
+    data = super().validate(attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework_simplejwt/serializers.py", line 54, in validate
+    self.user = authenticate(**authenticate_kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/auth/__init__.py", line 79, in authenticate
+    user = backend.authenticate(request, **credentials)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/auth/backends.py", line 42, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/auth/base_user.py", line 37, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: auth_user
+INFO 2024-12-12 17:05:22,252 django Response: {'status_code': 500, 'content_length': 192277}
+INFO 2024-12-12 17:13:03,766 django Incoming Request: {'method': 'POST', 'path': '/api/token/', 'ip': '172.18.0.1', 'user_agent': 'curl/7.81.0', 'timestamp': '2024-12-12T17:13:03.766832'}
+ERROR 2024-12-12 17:13:03,964 django.request Internal Server Error: /api/token/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: auth_user
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework_simplejwt/views.py", line 44, in post
+    serializer.is_valid(raise_exception=True)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/serializers.py", line 445, in run_validation
+    value = self.validate(value)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework_simplejwt/serializers.py", line 73, in validate
+    data = super().validate(attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework_simplejwt/serializers.py", line 54, in validate
+    self.user = authenticate(**authenticate_kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/auth/__init__.py", line 79, in authenticate
+    user = backend.authenticate(request, **credentials)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/auth/backends.py", line 42, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/auth/base_user.py", line 37, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: auth_user
+INFO 2024-12-12 17:13:03,966 django Response: {'status_code': 500, 'content_length': 192215}
+INFO 2024-12-12 17:13:44,048 django Incoming Request: {'method': 'POST', 'path': '/api/token/', 'ip': '172.18.0.1', 'user_agent': 'curl/7.81.0', 'timestamp': '2024-12-12T17:13:44.048134'}
+ERROR 2024-12-12 17:13:44,084 django.request Internal Server Error: /api/token/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: auth_user
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework_simplejwt/views.py", line 44, in post
+    serializer.is_valid(raise_exception=True)
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework/serializers.py", line 445, in run_validation
+    value = self.validate(value)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework_simplejwt/serializers.py", line 73, in validate
+    data = super().validate(attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/rest_framework_simplejwt/serializers.py", line 54, in validate
+    self.user = authenticate(**authenticate_kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/auth/__init__.py", line 79, in authenticate
+    user = backend.authenticate(request, **credentials)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/auth/backends.py", line 42, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/contrib/auth/base_user.py", line 37, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: auth_user
+INFO 2024-12-12 17:13:44,085 django Response: {'status_code': 500, 'content_length': 192215}
+ERROR 2024-12-12 18:31:21,241 django.security.DisallowedHost Invalid HTTP_HOST header: 'proxy_server-django_rest-1:8002'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'proxy_server-django_rest-1:8002'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2024-12-12 18:31:21,393 django.request Bad Request: /api/token/
+ERROR 2024-12-12 18:53:09,069 django.security.DisallowedHost Invalid HTTP_HOST header: 'proxy_server-django_rest-1:8002'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'proxy_server-django_rest-1:8002'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2024-12-12 18:53:09,088 django.request Bad Request: /api/token/
+ERROR 2024-12-12 18:58:07,611 django.security.DisallowedHost Invalid HTTP_HOST header: 'proxy_server-django_rest-1'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'proxy_server-django_rest-1'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2024-12-12 18:58:07,631 django.request Bad Request: /api/token/
+ERROR 2024-12-12 20:17:44,722 django.security.DisallowedHost Invalid HTTP_HOST header: 'proxy_server-django_rest-1:8002'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'proxy_server-django_rest-1:8002'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2024-12-12 20:17:44,740 django.request Bad Request: /api/token/
+INFO 2024-12-12 20:18:12,332 django Incoming Request: {'method': 'GET', 'path': '/proxy/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-12T20:18:12.332575'}
+INFO 2024-12-12 20:18:12,341 django Response: {'status_code': 404, 'content_length': 2344}
+WARNING 2024-12-12 20:18:12,341 django.request Not Found: /proxy/
+ERROR 2024-12-13 13:20:08,036 django.security.DisallowedHost Invalid HTTP_HOST header: '0.0.0.0:8002'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '0.0.0.0:8002'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING 2024-12-13 13:20:08,220 django.request Bad Request: /proxy/
+INFO 2024-12-13 13:22:21,264 django Incoming Request: {'method': 'GET', 'path': '/proxy/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T13:22:21.264291'}
+INFO 2024-12-13 13:22:21,380 django Response: {'status_code': 404, 'content_length': 2344}
+WARNING 2024-12-13 13:22:21,380 django.request Not Found: /proxy/
+ERROR 2024-12-13 13:27:29,868 django.security.DisallowedHost Invalid HTTP_HOST header: 'proxy_server-django_rest-1:8002'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'proxy_server-django_rest-1:8002'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2024-12-13 13:27:29,881 django.request Bad Request: /api/token/
+INFO 2024-12-13 13:58:29,519 django Incoming Request: {'method': 'GET', 'path': '/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T13:58:29.518995'}
+INFO 2024-12-13 13:58:29,614 django Response: {'status_code': 404, 'content_length': 2310}
+WARNING 2024-12-13 13:58:29,614 django.request Not Found: /
+INFO 2024-12-13 13:58:29,681 django Incoming Request: {'method': 'GET', 'path': '/favicon.ico', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T13:58:29.681264'}
+INFO 2024-12-13 13:58:29,684 django Response: {'status_code': 404, 'content_length': 2361}
+WARNING 2024-12-13 13:58:29,685 django.request Not Found: /favicon.ico
+INFO 2024-12-13 14:01:36,140 django Incoming Request: {'method': 'GET', 'path': '/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T14:01:36.140445'}
+INFO 2024-12-13 14:02:44,307 django Incoming Request: {'method': 'GET', 'path': '/proxy/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T14:02:44.307306'}
+INFO 2024-12-13 14:02:45,992 django Incoming Request: {'method': 'GET', 'path': '/favicon.ico', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T14:02:45.992109'}
+INFO 2024-12-13 14:04:24,998 django Incoming Request: {'method': 'GET', 'path': '/api/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T14:04:24.998940'}
+INFO 2024-12-13 14:04:37,285 django Incoming Request: {'method': 'GET', 'path': '/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T14:04:37.285571'}
+INFO 2024-12-13 14:07:24,599 django Incoming Request: {'method': 'GET', 'path': '/api/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T14:07:24.599644'}
+INFO 2024-12-13 14:09:15,570 django Incoming Request: {'method': 'GET', 'path': '/proxy/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T14:09:15.569973'}
+INFO 2024-12-13 14:09:15,662 django Response: {'status_code': 404, 'content_length': 2487}
+WARNING 2024-12-13 14:09:15,662 django.request Not Found: /proxy/
+INFO 2024-12-13 14:09:15,679 django Incoming Request: {'method': 'GET', 'path': '/favicon.ico', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T14:09:15.679912'}
+INFO 2024-12-13 14:09:15,684 django Response: {'status_code': 404, 'content_length': 2502}
+WARNING 2024-12-13 14:09:15,684 django.request Not Found: /favicon.ico
+INFO 2024-12-13 14:12:09,399 django Incoming Request: {'method': 'GET', 'path': '/api/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T14:12:09.399271'}
+INFO 2024-12-13 14:12:09,486 django Response: {'status_code': 404, 'content_length': 3149}
+WARNING 2024-12-13 14:12:09,486 django.request Not Found: /api/
+INFO 2024-12-13 14:16:50,672 django Incoming Request: {'method': 'GET', 'path': '/api/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T14:16:50.672192'}
+INFO 2024-12-13 14:16:50,765 django Response: {'status_code': 200, 'content_length': 198}
+INFO 2024-12-13 14:17:03,674 django Incoming Request: {'method': 'GET', 'path': '/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T14:17:03.674413'}
+INFO 2024-12-13 14:17:03,675 django Response: {'status_code': 200, 'content_length': 73}
+INFO 2024-12-13 14:17:28,570 django Incoming Request: {'method': 'GET', 'path': '/api/token/', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T14:17:28.569975'}
+INFO 2024-12-13 14:17:28,601 django Response: {'status_code': 405, 'content_length': 7623}
+WARNING 2024-12-13 14:17:28,601 django.request Method Not Allowed: /api/token/
+INFO 2024-12-13 14:17:28,619 django Incoming Request: {'method': 'GET', 'path': '/static/rest_framework/css/bootstrap.min.css', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T14:17:28.619681'}
+INFO 2024-12-13 14:17:28,634 django Incoming Request: {'method': 'GET', 'path': '/static/rest_framework/css/bootstrap-tweaks.css', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T14:17:28.634945'}
+INFO 2024-12-13 14:17:28,635 django Response: {'status_code': 404, 'content_length': 2600}
+INFO 2024-12-13 14:17:28,635 django Incoming Request: {'method': 'GET', 'path': '/static/rest_framework/css/prettify.css', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T14:17:28.635398'}
+INFO 2024-12-13 14:17:28,635 django Incoming Request: {'method': 'GET', 'path': '/static/rest_framework/css/default.css', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T14:17:28.635673'}
+INFO 2024-12-13 14:17:28,635 django Incoming Request: {'method': 'GET', 'path': '/static/rest_framework/js/jquery-3.7.1.min.js', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T14:17:28.635909'}
+INFO 2024-12-13 14:17:28,636 django Incoming Request: {'method': 'GET', 'path': '/static/rest_framework/js/ajax-form.js', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T14:17:28.636132'}
+WARNING 2024-12-13 14:17:28,640 django.request Not Found: /static/rest_framework/css/bootstrap.min.css
+INFO 2024-12-13 14:17:28,640 django Response: {'status_code': 404, 'content_length': 2609}
+INFO 2024-12-13 14:17:28,653 django Response: {'status_code': 404, 'content_length': 2582}
+INFO 2024-12-13 14:17:28,654 django Response: {'status_code': 404, 'content_length': 2585}
+WARNING 2024-12-13 14:17:28,654 django.request Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+INFO 2024-12-13 14:17:28,664 django Response: {'status_code': 404, 'content_length': 2603}
+INFO 2024-12-13 14:17:28,665 django Response: {'status_code': 404, 'content_length': 2582}
+WARNING 2024-12-13 14:17:28,665 django.request Not Found: /static/rest_framework/css/default.css
+INFO 2024-12-13 14:17:28,665 django Incoming Request: {'method': 'GET', 'path': '/static/rest_framework/js/csrf.js', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T14:17:28.665499'}
+WARNING 2024-12-13 14:17:28,665 django.request Not Found: /static/rest_framework/css/prettify.css
+WARNING 2024-12-13 14:17:28,666 django.request Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2024-12-13 14:17:28,668 django.request Not Found: /static/rest_framework/js/ajax-form.js
+INFO 2024-12-13 14:17:28,674 django Incoming Request: {'method': 'GET', 'path': '/static/rest_framework/js/bootstrap.min.js', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T14:17:28.674181'}
+INFO 2024-12-13 14:17:28,676 django Response: {'status_code': 404, 'content_length': 2567}
+INFO 2024-12-13 14:17:28,682 django Response: {'status_code': 404, 'content_length': 2594}
+WARNING 2024-12-13 14:17:28,682 django.request Not Found: /static/rest_framework/js/csrf.js
+INFO 2024-12-13 14:17:28,682 django Incoming Request: {'method': 'GET', 'path': '/static/rest_framework/js/prettify-min.js', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T14:17:28.682686'}
+INFO 2024-12-13 14:17:28,683 django Incoming Request: {'method': 'GET', 'path': '/static/rest_framework/js/default.js', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T14:17:28.683354'}
+INFO 2024-12-13 14:17:28,683 django Incoming Request: {'method': 'GET', 'path': '/static/rest_framework/js/load-ajax-form.js', 'ip': '172.18.0.1', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'timestamp': '2024-12-13T14:17:28.683723'}
+WARNING 2024-12-13 14:17:28,685 django.request Not Found: /static/rest_framework/js/bootstrap.min.js
+INFO 2024-12-13 14:17:28,702 django Response: {'status_code': 404, 'content_length': 2591}
+INFO 2024-12-13 14:17:28,702 django Response: {'status_code': 404, 'content_length': 2576}
+WARNING 2024-12-13 14:17:28,703 django.request Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2024-12-13 14:17:28,708 django.request Not Found: /static/rest_framework/js/default.js
+INFO 2024-12-13 14:17:28,709 django Response: {'status_code': 404, 'content_length': 2597}
+WARNING 2024-12-13 14:17:28,710 django.request Not Found: /static/rest_framework/js/load-ajax-form.js
+ERROR 2024-12-13 14:22:14,031 django.security.DisallowedHost Invalid HTTP_HOST header: 'proxy_server-django_rest-1:8002'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'proxy_server-django_rest-1:8002'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2024-12-13 14:22:14,050 django.request Bad Request: /api/token/
+ERROR 2024-12-13 14:25:08,583 django.security.DisallowedHost Invalid HTTP_HOST header: 'proxy_server-django_rest-1:8002'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'proxy_server-django_rest-1:8002'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2024-12-13 14:25:08,661 django.request Bad Request: /api/token/
+ERROR 2024-12-13 14:33:22,353 django.security.DisallowedHost Invalid HTTP_HOST header: 'proxy_server-django_rest-1:8002'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'proxy_server-django_rest-1:8002'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2024-12-13 14:33:22,451 django.request Bad Request: /api/token/
+ERROR 2024-12-13 14:41:27,076 django.security.DisallowedHost Invalid HTTP_HOST header: 'proxy_server-django_rest-1'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'proxy_server-django_rest-1'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2024-12-13 14:41:27,163 django.request Bad Request: /api/token/
+ERROR 2024-12-13 14:44:09,046 django.security.DisallowedHost Invalid HTTP_HOST header: 'proxy_server-django_rest-1'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'proxy_server-django_rest-1'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2024-12-13 14:44:09,138 django.request Bad Request: /api/token/
+WARNING 2024-12-13 14:51:31,313 django.request Bad Request: /api/token/
+WARNING 2024-12-13 14:52:34,018 django.request Bad Request: /api/token/
+INFO 2024-12-13 14:57:31,630 django Incoming Request: {'method': 'GET', 'path': '/api/token/', 'ip': '127.0.0.1', 'user_agent': 'curl/7.88.1', 'timestamp': '2024-12-13T14:57:31.630904'}
+INFO 2024-12-13 14:57:31,772 django Response: {'status_code': 405, 'content_length': 54}
+WARNING 2024-12-13 14:57:31,773 django.request Method Not Allowed: /api/token/
+WARNING 2024-12-13 14:59:43,228 django.request Bad Request: /api/token/
+WARNING 2024-12-13 15:05:36,062 django.request Bad Request: /api/token/
+WARNING 2024-12-13 15:31:33,858 django.request Bad Request: /api/token/
+WARNING 2024-12-13 15:45:27,511 django.request Bad Request: /api/token/
+WARNING 2024-12-13 16:13:45,347 django.request Bad Request: /api/token/
+WARNING 2024-12-13 16:21:37,859 django.request Not Found: /proxy/
+WARNING 2024-12-13 16:21:43,686 django.request Not Found: /proxy/
+WARNING 2024-12-13 16:21:44,717 django.request Not Found: /proxy/
+WARNING 2024-12-13 16:21:49,256 django.request Not Found: /proxy/
+WARNING 2024-12-13 16:21:57,561 django.request Not Found: /proxy/
+WARNING 2024-12-13 16:21:58,457 django.request Not Found: /proxy/
+WARNING 2024-12-13 16:22:33,630 django.request Bad Request: /api/token/
+WARNING 2024-12-13 16:24:45,369 django.request Bad Request: /api/token/
+WARNING 2024-12-13 16:46:19,708 django.request Not Found: /proxy/
+WARNING 2024-12-13 16:52:04,846 django.request Unauthorized: /api/token/
+WARNING 2024-12-13 16:56:31,610 django.request Unauthorized: /api/token/
+WARNING 2024-12-13 17:14:05,891 django.request Method Not Allowed: /api/token/
+WARNING 2024-12-13 17:14:05,933 django.request Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2024-12-13 17:14:05,959 django.request Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2024-12-13 17:14:05,959 django.request Not Found: /static/rest_framework/css/prettify.css
+WARNING 2024-12-13 17:14:05,964 django.request Not Found: /static/rest_framework/css/default.css
+WARNING 2024-12-13 17:14:05,974 django.request Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2024-12-13 17:14:05,975 django.request Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2024-12-13 17:14:05,987 django.request Not Found: /static/rest_framework/js/csrf.js
+WARNING 2024-12-13 17:14:06,010 django.request Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2024-12-13 17:14:06,011 django.request Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2024-12-13 17:14:06,011 django.request Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2024-12-13 17:14:06,011 django.request Not Found: /static/rest_framework/js/default.js
+WARNING 2024-12-13 17:14:06,032 django.request Not Found: /favicon.ico
+WARNING 2024-12-13 17:47:52,524 django.request Not Found: /proxy/
+WARNING 2024-12-13 17:47:53,168 django.request Not Found: /proxy/
+WARNING 2024-12-13 17:47:53,219 django.request Not Found: /favicon.ico
+WARNING 2024-12-13 18:25:50,855 django.request Unauthorized: /api/token/
+WARNING 2024-12-13 18:59:49,738 django.request Not Found: /api/register/
+WARNING 2024-12-13 19:08:43,711 django.request Not Found: /api/register/
+WARNING 2024-12-13 19:13:31,095 django.request Not Found: /proxy/
+WARNING 2024-12-13 19:15:47,361 django.request Not Found: /api/register/
+WARNING 2024-12-13 19:29:37,263 django.request Bad Request: /api/register/
